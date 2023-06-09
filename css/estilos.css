@@ -39,21 +39,12 @@ nav {
 }
 
 .liconteiner {
+  display: flex;
   width: 100%;
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  display: flex;
 }
-
-@media screen and (max-width: 500%){
-  .cont{
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-  }
-}
-
 
 a:link {
   background-color: white;
@@ -77,13 +68,13 @@ a:active {
 }
 
 .fotoconteiner {
-  height: 75px;
+  height: 100%;
   width: 75px;
 }
 
 .foto {
-  width: 200%;
-  height: 200%;
+  width: 75px;
+  height: 100%;
 }
 
 .h1 {
@@ -357,6 +348,17 @@ a:active {
   color: white;
 }
 
+.checkbtn {
+  color: var(--mainColor);
+  float: right;
+  line-height: 5vh;
+  margin-right: 5vh;
+  cursor: pointer;
+  display: none;
+}
 
+#check {
+  display: none;
+}
 
 /*# sourceMappingURL=estilos.css.map */
